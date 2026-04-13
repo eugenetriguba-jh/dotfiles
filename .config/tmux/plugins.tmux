@@ -27,9 +27,7 @@ set-option -g @plugin 'christoomey/vim-tmux-navigator'
 
 set-option -g @plugin 'tmux-plugins/tmux-yank'
 set-option -g @plugin 'tmux-plugins/tmux-open'
-
 set-option -g @plugin "arcticicestudio/nord-tmux"
-
-set-option -g @plugin 'https://git.sr.ht/~eugenetriguba/tmux-toggle-term'
+set-option -g @plugin 'eugenetriguba/tmux-toggle-term'
 
 run '$HOME/.config/tmux/plugins/tpm/tpm'

@@ -100,17 +100,12 @@ if [ $(uname) = "Darwin" ]; then
   export CPPFLAGS="-I/opt/homebrew/include"
   export LIBRARY_PATH="$LIBRARY_PATH:$(brew --prefix)/lib"
 
-  export JAVA_HOME=$(/usr/libexec/java_home -v 24)
-  export PATH="/opt/homebrew/opt/openjdk@24/bin:$PATH"
-  export CPPFLAGS="-I/opt/homebrew/opt/openjdk@24/include"
-
   export PNPM_HOME="/Users/eugene/Library/pnpm"
   case ":$PATH:" in
   *":$PNPM_HOME:"*) ;;
   *) export PATH="$PNPM_HOME:$PATH" ;;
   esac
 
-  export PATH="$HOME/.poetry/bin:$PATH"
   export PATH="/opt/homebrew/opt/curl/bin:$PATH"
 fi
 
@@ -137,3 +132,7 @@ alias emacs="emacsclient -nw"
 alias h="history 25"
 alias j="jobs -l"
 alias l="ls -al"
+
+if [ -z "$TMUX" ]; then
+    start-tmux
+fi

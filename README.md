@@ -17,11 +17,3 @@ git clone git@github.com:eugenetriguba/dotfiles.git ~/.dotfiles
 cd .dotfiles
 ./link.sh
 ```
-
-### System Setup
-
-I setup my whole system with an ansible playbook using my
-[system-setup](https://git.sr.ht/~eugenetriguba/system-setup) repository.
-
-This installs everything needed onto my system and _then_ symlinks these
-configuration files into my home directory.
