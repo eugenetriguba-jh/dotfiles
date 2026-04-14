@@ -30,7 +30,7 @@ set-window-option -g monitor-activity off
 set-option -g bell-action none
 
 # Enable hyperlinks
-set-option -as terminal-features ",*:hyperlinks"
+# set-option -as terminal-features ",*:hyperlinks"
 
 # Enable true color support
 set -ga terminal-overrides ",*256col*:Tc"

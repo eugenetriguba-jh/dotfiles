@@ -22,11 +22,9 @@ require('conform').setup {
     }
   end,
   formatters_by_ft = {
-    c = { 'clang-format' },
-    cpp = { 'clang-format' },
     lua = { 'stylua' },
     go = { 'gofmt' },
-    python = { 'black', 'isort' },
+    python = { 'darker', 'isort' },
     rust = { 'rustfmt' },
     sh = { 'shfmt' },
     tf = { 'terraform_fmt' },

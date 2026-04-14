@@ -26,7 +26,6 @@ set-option -g @resurrect-strategy-nvim 'session'
 set-option -g @plugin 'christoomey/vim-tmux-navigator'
 
 set-option -g @plugin 'tmux-plugins/tmux-yank'
-set-option -g @plugin 'tmux-plugins/tmux-open'
 set-option -g @plugin "arcticicestudio/nord-tmux"
 set-option -g @plugin 'eugenetriguba/tmux-toggle-term'
 

@@ -192,8 +192,6 @@ vim.lsp.enable {
   'harper_ls',
   'lua_ls',
   'ansiblels',
-  'clangd',
-  'gopls',
   'ty',
   'yamlls',
   'rust_analyzer',
