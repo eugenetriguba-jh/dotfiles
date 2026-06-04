@@ -5,7 +5,9 @@ vim.pack.add {
   },
 }
 
-require('trouble').setup {}
+require('trouble').setup {
+  max_items = 200000
+}
 
 vim.keymap.set('n', '<leader>xx', '<cmd>Trouble diagnostics toggle<cr>', { desc = 'Diagnostics (Trouble)' })
 vim.keymap.set(
