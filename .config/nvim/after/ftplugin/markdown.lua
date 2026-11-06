@@ -21,8 +21,5 @@ opt_local.shiftwidth = 2
 opt_local.list = true
 opt_local.listchars = 'tab:»·,trail:·'
 
-opt_local.number = false
-opt_local.relativenumber = false
-
 -- Use macOS dictionary program as keyword look up
 opt_local.keywordprg = 'open-dict'
